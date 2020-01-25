@@ -3,7 +3,6 @@
 %bcond_without	javadoc		# don't build javadoc
 
 %define		srcname		libfonts
-%include	/usr/lib/rpm/macros.java
 Summary:	TrueType Font Layouting
 Name:		java-%{srcname}
 Version:	1.1.3
