@@ -43,7 +43,7 @@ Javadoc for LibFonts.
 
 %prep
 %setup -qc
-%patch0 -p1
+%patch -P0 -p1
 
 find -name "*.jar" | xargs rm -v
 
